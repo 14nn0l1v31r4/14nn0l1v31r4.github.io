@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+}
+
+.main-header, .main-footer{
+    background: #666;
+    padding: 10px;
+    color: white;
+    margin: 0px;
+}
+
+.main-header h1{
+    margin: 0;
+}
+
+.main-nav{
+    width: 10%;
+    display: inline-block;
+    float: inline-start;
+}
+
+.main-nav ul{
+    list-style-type: none;
+    padding: 5px;
+    margin: 0;  
+}
+
+.main-nav li{
+    background: #ccc;
+    padding: 10px;
+    margin-bottom: 2px;
+}
+
+.main-nav li:hover{
+    background: #aaa;
+}
+
+.main-nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+#principal{
+    width: 87%;
+    display: inline-block;
+    margin-left: 10px;
+    border-left: 2px solid black;
+    padding: 20px 0px 20px 10px;
+}
